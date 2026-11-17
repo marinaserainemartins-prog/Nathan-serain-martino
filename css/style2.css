@@ -1,0 +1,42 @@
+#wrapper{
+    display: grid;
+    height: 150vh;
+    width: 100%;
+    gap: 10px;
+    grid-template-rows:12% 65% 65% 20%;
+    grid-template-areas:
+    'nav'
+    'se1'
+    'se2'
+    'fot'
+    ;
+}
+body{
+    background-color: black;
+}
+nav{
+    grid-area: nav;
+    background-color: blueviolet;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+section1{
+    grid-area: se1;
+    background-color: blueviolet;
+}
+section2{
+    grid-area: se2;
+    background-color: blueviolet;
+}
+footer{
+    grid-area: fot;
+    background-color: blueviolet;
+}
+div1{
+    display: flex;
+    height: 100%;
+    width: 200px;
+    background-color: deeppink;
+    border-radius: 20px;
+}
