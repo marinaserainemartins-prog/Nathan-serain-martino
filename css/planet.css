@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+#wrapper{
+    display: grid;
+    height: 150vh;
+    width: 100%;
+    gap: 10px;
+    grid-template-rows:12% 65% 65% 10% 20%;
+    grid-template-columns: 50% 49%;
+    grid-template-areas:
+    'nav1 nav1'
+    'se3 se1'
+    'se2 se2'
+    'nav2 nav2'
+    'fot fot'
+    ;
+}
+nav1{
+    grid-area: nav1;
+    background-color: blueviolet;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+section3{
+    grid-area: se3;
+    background-color: blueviolet;
+   border-radius: 20px;
+}
+section1{
+    grid-area: se1;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+section2{
+    grid-area: se2;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+nav2{
+    grid-area: nav2;
+    background-color: blueviolet;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    grid-area: fot;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+div1{
+    display: flex;
+    background-color: deeppink;
+    height: 100%;
+    width: 200px;
+    border-radius: 20px;
+}
+div2{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    background-color: deeppink;
+    border-radius: 20px;
+}
+div3{
+    display: flex;
+    object-fit: cover;
+    height: 100%;
+    width: 200px;
+    background-color: deeppink;
+    border-radius: 20px;
+}
